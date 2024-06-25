@@ -1,6 +1,6 @@
 object TicketPriceCalculator{
     def attendees(price : Double) : Double = {
-        150 + (15-price) / 5*20
+        120 + (15-price) / 5*20
     }
 
     def revenue(price : Double) : Double = {
