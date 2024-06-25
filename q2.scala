@@ -1,24 +1,24 @@
 def main(args : Array[String]): Unit ={
-    val a=2
-    val b=3
-    val c=4
-    val d=5
-    val k=4.3f
-    val g=5
+    var a=2
+    var b=3
+    var c=4
+    var d=5
+    var k=4.3f
+    var g=5
 
     b-= 1
-    val A = b * a + c * d
+    var A = b * a + c * d
     d-=1
     
-    val B = a
+    var B = a
     a+=1
     
-    val C = (-2 * (g-k) + c)
-    val D = c
+    var C = (-2 * (g-k) + c)
+    var D = c
     c+=1
 
     c+=1
-    val E = c * a
+    var E = c * a
     a+=1
 
     println(s"$A")
