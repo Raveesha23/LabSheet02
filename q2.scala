@@ -6,11 +6,20 @@ def main(args : Array[String]): Unit ={
     val k=4.3f
     val g=5
 
-    val A = (b-1) * a + c * (d-1)
-    val B = (a+1)
+    b-= 1
+    val A = b * a + c * d
+    d-=1
+    
+    val B = a
+    a+=1
+    
     val C = (-2 * (g-k) + c)
-    val D = c+1
-    val E = ((c+1) * (a+1))
+    val D = c
+    c+=1
+
+    c+=1
+    val E = c * a
+    a+=1
 
     println(s"$A")
     println(s"$B")
