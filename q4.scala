@@ -26,7 +26,7 @@ object TicketPriceCalculator{
         println(s"Profit for Rs.30 : $opt3")
         println(s"Profit for Rs.35 : $opt4")
 
-        println(s"Highest profit is for the ticket price : 30")
+        println(s"Highest profit is for the ticket price : Rs.25")
     }
 
 }
